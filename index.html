@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Merger</title>
+    <!-- <script src="https://unpkg.com/pdf-lib"></script> -->
+     <script src="assets/pdf-lib-copy.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/pdf.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="inputfiles">
+            <div class="file">
+                <div class="custom-file-input">
+                    <input type="file" id="fileInput1" class="fileInput" accept="application/pdf" hidden>
+                    <label for="fileInput1" class="customLabel">
+                        <img class="img1" src="assets/pdf.png" alt=""> <span class="t1">Upload File</span>
+                    </label>
+                </div>
+            </div>
+            <div class="file">
+                <div class="custom-file-input">
+                    <input type="file" id="fileInput2" class="fileInput" accept="application/pdf" hidden>
+                    <label for="fileInput2" class="customLabel">
+                        <img class="img2" src="assets/pdf.png" alt=""> <span class="t2">Upload File</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="btns">
+            <button type="button" class="merger">Get Merged Docs</button>
+            
+            <a id="downloadLink" style="display:none;"  download="merged.pdf">Download Merged PDF 
+            </a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+  box-sizing: border-box;
+}
+body {
+  width: 500px;
+  height: 300px;
+  background-image: linear-gradient(160deg, #80d0c7 0%, #0093e9 100%);
+}
+.container {
+    margin-top:40px;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inputfiles {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+.file {
+    border: 5px solid #38c0b0;
+    border-radius: 10px;
+    border-style: dotted;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10%;
+    margin: 5%;
+    background-color: rgba(255, 255, 255, 0.205);
+}
+.custom-file-input {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+.customLabel {
+    border: 2px solid black;
+    background-color: #007BFF;
+    width: 90%;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    text-align: center;
+}
+.fileInput {
+    display: none;
+}
+img {
+    display: none;
+    max-width: 50px;
+}
+.btns {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button {
+    color: black;
+    background-image: linear-gradient(160deg, #2bc0af 0%, #007BFF 100%);
+    width: 200px;
+    height: 60px;
+    outline: none;
+    border: 4px solid black;
+    border-radius: 12px;
+    margin: 20px;
+    font-size: large;
+    font-weight: 900;
+    cursor: pointer;
+}
+a {
+    color: white;
+    text-shadow: 0 0 5px #007BFF, 0 0 10px #007BFF, 0 0 15px #007BFF;
+    text-decoration: none;
+}
+

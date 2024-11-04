@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "PDF Merger Extension",
+    "version": "1.0",
+    "description": "Merge PDF files directly from your browser.",
+    "icons": {
+      "16": "assets/icons8-pdf-16.png"
+
+    },
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "16": "assets/icons8-pdf-16.png"
+      }
+    },
+    "permissions": [
+      "storage",
+      "downloads"
+    ],
+    "host_permissions": [
+      "*://*/*"
+    ],
+    "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self';"
+    }
+  }
+  
